@@ -36,4 +36,42 @@
   --transition-fast: 0.2s ease;
   --transition-normal: 0.3s ease;
 }
+/*Define a base do rem para 10px(62.5% de 16px)*/
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+/*Reset puramente estrutural do body */
+body{
+    min-height: 100vh;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+}
+
+img,
+picture{
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+/*Herança de tipografia para entradas de texto e botões */
+input,
+button,
+textarea,
+select{
+    font: inherit;
+}
+
+/*Remoção de formatação padrão*/
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol{
+    list-style: none;
+}
+
 
