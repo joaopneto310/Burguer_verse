@@ -36,6 +36,15 @@
   --transition-fast: 0.2s ease;
   --transition-normal: 0.3s ease;
 }
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /*Define a base do rem para 10px(62.5% de 16px)*/
 html{
     font-size: 62.5%;

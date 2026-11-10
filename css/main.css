@@ -1,4 +1,4 @@
 /* 1Base, Reset e cores */
-@import url(design-system.css);
+@import url(./design-system.css);
 
-@import url(global.css);
+@import url(./global.css);
